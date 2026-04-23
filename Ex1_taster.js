@@ -59,8 +59,10 @@ console.log("-------------------------------------------");
 // let fruit_bowl = apples + oranges;
 
 // Write your code below:
-
-
+let num1 = 10;
+let num2 = 5;
+let total = num1 + num2;
+console.log("The total is " + total);
 
 // -----------------------------------------------------------
 // Task 3: Variables and IF Statements
