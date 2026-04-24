@@ -122,8 +122,11 @@ console.log("-------------------------------------------");
 // Print that number multiplied by itself.
 
 // Write your code below:
-
-
+//let myNumber = -7;
+//     console.log(myNumber * myNumber);
+let myNumber = 7;
+let squared = myNumber ** 2;
+     console.log("The square is: ", squared);
 
 // Extension 2: Score Tracker
 // -------------------------------------------
@@ -136,8 +139,14 @@ console.log("-------------------------------------------");
 // Check IF the userAnswer variable is 10, add 10 to the score variable and print the new total.
 
 // Write your code below:
-
-
+let score = 0;
+let userAnswer = 10;
+if (userAnswer === 10) {
+     score = score += 10;
+     console.log("Hooray! Your score is: ", score);
+} else {
+     console.log("Incorrect answer! Your score remains: ", score);
+}
 
 // Extension 3: The Length Checker
 // -------------------------------------------
@@ -150,8 +159,12 @@ console.log("-------------------------------------------");
 // If the word is longer than 5 letters, print "That's a long word!"
 
 // Write your code below:
-
-
+let word = "word";
+if (word.length > 5) {
+     console.log("That's a long word!");
+} else {
+     console.log("That's a short word!");
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
