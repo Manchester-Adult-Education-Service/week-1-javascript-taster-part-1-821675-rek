@@ -62,7 +62,7 @@ console.log("-------------------------------------------");
 let num1 = 10;
 let num2 = 5;
 let total = num1 + num2;
-console.log("The total is " + total);
+console.log("The total is: " + total);
 
 // -----------------------------------------------------------
 // Task 3: Variables and IF Statements
@@ -86,8 +86,12 @@ console.log("-------------------------------------------");
 // }
 
 // Write your code below:
-
-
+let password = "JS123";
+if (password === "JS123") {
+     console.log("Access granted.");
+} else {
+     console.log("Access denied.");
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
