@@ -159,7 +159,7 @@ console.log("-------------------------------------------");
 // If the word is longer than 5 letters, print "That's a long word!"
 
 // Write your code below:
-let word = "word";
+let word = "pseudopseudohypoparathyroidism";
 if (word.length > 5) {
      console.log("That's a long word!");
 } else {
@@ -200,8 +200,30 @@ Create a chatbot logic that uses nested IF statements and a 'status' check.
 */
 
 // Write your code below:
+//1. Set the variables:
+let userMood = "tired";  // mood could also be "happy" or "hungry"
+let hoursSleep = 5;
 
+//2. Determine the mood:
+if (userMood === "tired") {
+     if (hoursSleep < 6) {
+          console.log("Go to bed!");
+     } else {
+          console.log("Maybe you need more caffeine?");
+     }
+} else if (userMood === "happy") {
+          console.log("Keep that energy up!");
 
+} else if (userMood === "hungry") { 
+     let likesPizza = true;
+     if (likesPizza === true) {   
+          console.log("Order a Margherita"); 
+     } else {
+          console.log("How about a salad?");
+     }
+} else {
+     console.log("I'm not sure how to help with that mood yet.")
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
