@@ -36,8 +36,9 @@ console.log("-------------------------------------------");
 // console.log("I love " + food);
 
 // Write your code below:
-
-
+console.log("Welcome to Javascript!");
+let user_name = "Rekha";
+console.log("Hello " + user_name);
 
 // -----------------------------------------------------------
 // Task 2: Basic Arithmetic (The Calculator)
@@ -58,8 +59,10 @@ console.log("-------------------------------------------");
 // let fruit_bowl = apples + oranges;
 
 // Write your code below:
-
-
+let num1 = 10;
+let num2 = 5;
+let total = num1 + num2;
+console.log("The total is: " + total);
 
 // -----------------------------------------------------------
 // Task 3: Variables and IF Statements
@@ -83,8 +86,12 @@ console.log("-------------------------------------------");
 // }
 
 // Write your code below:
-
-
+let password = "JS123";
+if (password === "JS123") {
+     console.log("Access granted.");
+} else {
+     console.log("Access denied.");
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
@@ -115,8 +122,11 @@ console.log("-------------------------------------------");
 // Print that number multiplied by itself.
 
 // Write your code below:
-
-
+//let myNumber = -7;
+//     console.log(myNumber * myNumber);
+let myNumber = 7;
+let squared = myNumber ** 2;
+     console.log("The square is: ", squared);
 
 // Extension 2: Score Tracker
 // -------------------------------------------
@@ -129,8 +139,14 @@ console.log("-------------------------------------------");
 // Check IF the userAnswer variable is 10, add 10 to the score variable and print the new total.
 
 // Write your code below:
-
-
+let score = 0;
+let userAnswer = 10;
+if (userAnswer === 10) {
+     score = score += 10;
+     console.log("Hooray! Your score is: ", score);
+} else {
+     console.log("Incorrect answer! Your score remains: ", score);
+}
 
 // Extension 3: The Length Checker
 // -------------------------------------------
@@ -143,8 +159,12 @@ console.log("-------------------------------------------");
 // If the word is longer than 5 letters, print "That's a long word!"
 
 // Write your code below:
-
-
+let word = "pseudopseudohypoparathyroidism";
+if (word.length > 5) {
+     console.log("That's a long word!");
+} else {
+     console.log("That's a short word!");
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
@@ -180,8 +200,30 @@ Create a chatbot logic that uses nested IF statements and a 'status' check.
 */
 
 // Write your code below:
+//1. Set the variables:
+let userMood = "tired";  // mood could also be "happy" or "hungry"
+let hoursSleep = 5;
 
+//2. Determine the mood:
+if (userMood === "tired") {
+     if (hoursSleep < 6) {
+          console.log("Go to bed!");
+     } else {
+          console.log("Maybe you need more caffeine?");
+     }
+} else if (userMood === "happy") {
+          console.log("Keep that energy up!");
 
+} else if (userMood === "hungry") { 
+     let likesPizza = true;
+     if (likesPizza === true) {   
+          console.log("Order a Margherita"); 
+     } else {
+          console.log("How about a salad?");
+     }
+} else {
+     console.log("I'm not sure how to help with that mood yet.")
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
